@@ -46,7 +46,7 @@ textarea{
     max-height: 200px;
 }
 
-#formatBtn{
+button{
     margin-top: 15px;
     width: 30%;
     height: 36px;
@@ -58,11 +58,11 @@ textarea{
     transition: 0.05s ease-in-out;
 }
 
-#formatBtn:hover{
+button:hover{
     border: none;
 }
 
-#formatBtn:active{
+button:active{
     box-shadow: 0 0 black;
     transition: 0.05s ease-in-out;
 }
