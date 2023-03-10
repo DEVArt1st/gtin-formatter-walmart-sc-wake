@@ -1,0 +1,72 @@
+html{
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: #283739;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: white;
+    font-weight: 200;
+}
+
+h1{
+    color: white;
+    text-transform: uppercase;
+}
+
+.container{
+    background: rgb(169, 197, 47, 0.5);
+    height: 90vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+textarea{
+    padding: 10px;
+}
+
+.inner-container{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.gtin-input{
+    max-width: 800px;
+    max-height: 200px;
+}
+
+#formatBtn{
+    margin-top: 15px;
+    width: 30%;
+    height: 36px;
+    background: #228896;
+    color: white;
+    cursor: pointer;
+    border: 2px solid white;
+    box-shadow: 0 4px black;
+    transition: 0.05s ease-in-out;
+}
+
+#formatBtn:hover{
+    border: none;
+}
+
+#formatBtn:active{
+    box-shadow: 0 0 black;
+    transition: 0.05s ease-in-out;
+}
+
+.gtin-output{
+    resize: none;
+}
